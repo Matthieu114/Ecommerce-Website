@@ -6,7 +6,8 @@ School Project Year 3 (2020-2021)
 
 #### Home page with options
 
-![alt text](./ReadmeImages/Home.png | width=100)
+
+<img src="./ReadmeImages/Home.png" width="200" height="400" />
 
 #### Can signup a user through db as a seller or buyer account
 
