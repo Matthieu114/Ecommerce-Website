@@ -12,7 +12,10 @@ Run Xampp or Mampp and put the projet files into the Mampp or Xampp `htdocs` fol
 Then go to localhost:XXXX (XXXX being your port number) in your browser to try it out ! 
 
 
-###This projet is an ECommerce Projet so it allows you to:
+### This projet is an ECommerce Projet so it allows you to:
+
+
+## Image Demonstration
 
 - Create and login with a user (Has user authentication)
 - Create Buyer Or Seller Accounts
