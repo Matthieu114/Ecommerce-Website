@@ -7,17 +7,11 @@ School Project Year 3 (2020-2021)
 #### Home page with options
 
 
-<img src="./ReadmeImages/Home.png" width="500" height="300" />
+<img src="./ReadmeImages/Home.png"/>
 
 #### Can signup a user through db as a seller or buyer account
-
-<img src="./ReadmeImages/Signup.png" width="200" height="500" />
-
 #### Login user, has password validation
-
-<img src="./ReadmeImages/Login.png" width="200" height="350" />
-
-#### Redirected to your account after Login
+<img src="./ReadmeImages/Signup.png" width="200" height="350" /><img src="./ReadmeImages/Login.png" width="200" height="250" />
 
 #### Buyer or Seller users will have different available options
 
@@ -31,11 +25,10 @@ School Project Year 3 (2020-2021)
 #### Can see Item Info and add it to basket
 
 ![alt text](./ReadmeImages/ItemInfo.png)
-![alt text](./ReadmeImages/Basket.png)
 
 #### Can bid and buy from the basket
 
-![alt text](./ReadmeImages/Basket.png)
+<img src="./ReadmeImages/Basket.png" width="200" height="250" /><img src="./ReadmeImages/Basket2.png" width="200" height="250" />
 
 #### Seller Buyer and Admin Have their own profiles
 
