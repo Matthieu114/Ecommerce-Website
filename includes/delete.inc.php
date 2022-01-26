@@ -26,7 +26,7 @@ if($resultData){
     exit();	
 }
 else{
-        header("location: ProjetInfo/my_auctions.php?error=didntdelete");
+        header("location: ../my_auctions.php?error=didntdelete");
 }
 
 

@@ -31,9 +31,9 @@ include_once 'header.php';
                     else if($_GET["error"]=="wronglogin"){
                          echo "<p>Username/Email is invalid!<p>";
                     }
-                    // else if($_GET["error"]=="wrongpassword"){
-                    //     echo "<p>password is invalid!<p>";
-                    // }
+                    else if($_GET["error"]=="wrongpassword"){
+                        echo "<p>password is invalid!<p>";
+                    }
                     else if($_GET["error"] == "none"){
                         echo "<p> You have logged in! <p>";
                     }

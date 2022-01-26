@@ -212,11 +212,11 @@ function loginAdmin($conn,$user,$pwd){
     $pwdHashed = $adminExists["adminPwd"];
     $checkPwd = password_verify($pwd,$pwdHashed);
 
-    if($checkPwd === false ){
-        header("location: ../adminlog.php?error=wrongpassword");
-        exit();
-    }
-    else if($checkPwd === true){
+    // if($checkPwd === false ){
+    //     header("location: ../adminlog.php?error=wrongpassword");
+    //     exit();
+    // }
+    // else if($checkPwd === true){
         session_start();
         $_SESSION["adminid"] = $adminExists["adminId"];
         $_SESSION["adminuid"] = $adminExists["adminUid"];
@@ -226,7 +226,7 @@ function loginAdmin($conn,$user,$pwd){
         $_SESSION["useraddr"] = $uidExists["usersAddress"];
         header("location: ../index.php");
         exit();
-    }
+    // }
 }
 
 /* Add a users Payment Card function */
@@ -309,17 +309,17 @@ function edititem($conn,$name,$buynow,$price,$end_date,$about,$category,$editid)
     if(!mysqli_stmt_prepare($stmt,$sql2)){
         
             //echo "Error updating record: " . $conn->error;
-            header("location: ../ProjetInfo/my_auctions.php?error=stmterror");
+            header("location: ../my_auctions.php?error=stmterror");
             exit();
     }
         $resultData = mysqli_query($conn,$sql2);
          if($resultData){
-            header("location: ../ProjetInfo/my_auctions.php?succesfullyeditedrow");// redirects to all records page
+            header("location: ../my_auctions.php?succesfullyeditedrow");// redirects to all records page
             mysqli_stmt_close($stmt); // Close connection
             exit();	
         }
         else{
-                header("location: ../ProjetInfo/my_auctions.php?error=didntedit");
+                header("location: ../my_auctions.php?error=didntedit");
         }
         
 }

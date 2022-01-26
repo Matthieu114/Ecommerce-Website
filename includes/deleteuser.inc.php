@@ -24,5 +24,5 @@ if($resultData2){
     exit();	
 }
 else{
-        header("location: ProjetInfo/information.php?error=didntdelete");
+        header("location: ../information.php?error=didntdelete");
 }

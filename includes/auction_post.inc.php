@@ -26,7 +26,7 @@ if(isset($_POST["post"])){
     if($imageError === 0){
         if($imageSize < 500000){
                 //$imageNew = uniqid('',true).".".$imageActualExt;
-                $target = "/opt/lampp/htdocs/ProjetInfo/uploads/".$image;
+                $target = "/opt/lampp/htdocs/uploads/".$image;
                 move_uploaded_file($imageTmp,$target);
                 //header("location: auctions.php?uploadsuccessful");
         }else{

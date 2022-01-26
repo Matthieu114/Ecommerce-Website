@@ -18,7 +18,7 @@ include_once 'header.php';
 
 
    <div class="grid-items">
-        <div class ="item2"> <a href="#"><img src="/ProjetInfo/images/cogwheel.png" alt="settings"><h4> Settings </h4></a></div>
+        <div class ="item2"> <a href="#"><img src="./images/cogwheel.png" alt="settings"><h4> Settings </h4></a></div>
         <div class ="item4"> <a href="information.php"> <img src="./images/adminuser.png" alt="info"> <h4>Edit Users</h4></a> </div>
         <div class ="item6"> <a href="my_auctions.php">  <img src="./images/auction.png" alt="auction"> <h4>Edit auctions</h4></a> </div>
    </div>

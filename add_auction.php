@@ -7,7 +7,7 @@ include_once 'header.php';
     <div class="title"><h1>Add New Auction</h1></div>
 
     <div class="sale_form">
-    <form action="/ProjetInfo/includes/auction_post.inc.php" method="post" enctype="multipart/form-data">
+    <form action="./includes/auction_post.inc.php" method="post" enctype="multipart/form-data">
 
         <label for="title"> Item Name / Model </label><br>
         <input type="text" id="title" name="title" placeholder="Item name" required><br>

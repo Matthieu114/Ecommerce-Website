@@ -34,7 +34,7 @@ if(isset($_POST["bid"])){
         if(!mysqli_stmt_prepare($stmt,$sql2)){
             
                 //echo "Error updating record: " . $conn->error;
-                header("location: ../ProjetInfo/my_auctions.php?error=stmterror");
+                header("location: ../my_auctions.php?error=stmterror");
                 exit();
         }
             $resultData = mysqli_query($conn,$sql2);
