@@ -6,7 +6,7 @@ School Project Year 3 (2020-2021)
 
 #### Home page with options
 
-(./ReadmeImages/Home.png)
+('./ReadmeImages/Home.png')
 
 #### Can signup a user through db as a seller or buyer account
 
