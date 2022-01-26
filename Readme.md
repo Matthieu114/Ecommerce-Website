@@ -7,15 +7,15 @@ School Project Year 3 (2020-2021)
 #### Home page with options
 
 
-<img src="./ReadmeImages/Home.png" width="200" height="400" />
+<img src="./ReadmeImages/Home.png" width="500" height="300" />
 
 #### Can signup a user through db as a seller or buyer account
 
-![alt text](./ReadmeImages/Signup.png)
+<img src="./ReadmeImages/Signup.png" width="200" height="500" />
 
 #### Login user, has password validation
 
-![alt text](./ReadmeImages/Login.png)
+<img src="./ReadmeImages/Login.png" width="200" height="350" />
 
 #### Redirected to your account after Login
 
