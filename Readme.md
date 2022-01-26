@@ -4,11 +4,13 @@
 
 School Project Year 3 (2020-2021)
 
-``` To try out the projet import `loginSystem.sql` file into your database
+``` 
+To try out the projet import `loginSystem.sql` file into your database
 
 Run Xampp or Mampp and put the projet files into the `htdocs`folder
 
-Then go to localhost in your browser to try it out ! ```
+Then go to localhost in your browser to try it out ! 
+```
 
 #### Home page with options
 
