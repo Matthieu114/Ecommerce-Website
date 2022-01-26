@@ -7,7 +7,7 @@
 
 To try out the projet import `loginSystem.sql` file into your database
 
-Run Xampp or Mampp and put the projet files into the Mampp or Xampp `htdocs` folder 
+Run Xampp or Mampp enable localhost over SSH and put the projet files into the Mampp or Xampp `htdocs` folder once it has been mounted
 
 Then go to localhost:XXXX (XXXX being your port number) in your browser to try it out ! 
 
