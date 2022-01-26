@@ -1,0 +1,282 @@
+/* body css styling */
+body {
+  background-image: url('/images/background2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+/*h1 {
+  font-weight: 600;
+  font-size: 32px;
+  padding: 20px 0;
+  text-align: center;
+}
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+/* Profile display*/
+
+.grid-height {
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+
+.grid-height h1 {
+  font-weight: 600;
+  font-size: 32px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.grid-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 170px;
+  margin: 0 auto;
+  margin-top: 5%;
+  background-color: transparent;
+  width: 80%;
+}
+.grid-items > div {
+  text-align: center;
+  padding: 15px 0;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  border: solid 2px black;
+}
+
+.grid-items-buyer {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 170px;
+  margin: 0 auto;
+  margin-top: 5%;
+  background-color: transparent;
+  width: 60%;
+}
+
+.grid-items-buyer > div {
+  text-align: center;
+  padding: 15px 0;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  border: solid 2px black;
+}
+
+.grid-items-buyer .item1:hover,
+.item2:hover,
+.item3:hover,
+.item4:hover,
+.item5:hover,
+.item6:hover {
+  opacity: 100%;
+}
+
+.grid-items .item1:hover,
+.item2:hover,
+.item3:hover,
+.item4:hover,
+.item5:hover,
+.item6:hover {
+  opacity: 100%;
+}
+
+.grid-items img {
+  height: 90px;
+  width: 90px;
+}
+
+.grid-items-buyer img {
+  height: 90px;
+  width: 90px;
+}
+
+.grid-items h4 {
+  color: black;
+}
+
+.grid-items-buyer h4 {
+  color: black;
+}
+
+.grid-items img:hover,
+.grid-items h4:hover {
+  opacity: 70%;
+  color: blue;
+}
+
+.grid-items-buyer img:hover,
+.grid-items-buyer h4:hover {
+  opacity: 70%;
+  color: blue;
+}
+
+/* Categories Index page*/
+
+.cat-body {
+  margin: 0 auto 0 auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+#cat_h1 {
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 50px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.cat-grid {
+  display: grid;
+  height: fit-content;
+  margin: auto;
+  grid-template-columns: repeat(3, 1);
+  background-color: transparent;
+  gap: 50px;
+}
+
+.cat-grid > div {
+  text-align: center;
+  border: solid black;
+  border-radius: 10px;
+  background-color: white;
+  opacity: 90%;
+  padding: 5px 40px;
+}
+
+.cat-grid img {
+  height: 40px;
+  width: 40px;
+}
+
+.cat-grid img:hover {
+  opacity: 30%;
+}
+
+/* Personal Information Page */
+
+.outer-wrap h1 {
+  font-weight: 600;
+  font-size: 32px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.outer-wrap {
+  margin-bottom: 200px;
+  margin-top: 200px;
+}
+
+.inner-wrap {
+  background-color: whitesmoke;
+  width: 60%;
+  margin: 0 auto;
+}
+#info-tab th,
+#info-tab td,
+#info-tab tr {
+  border-collapse: collapse;
+  text-align: center;
+  padding: 15px 20px;
+}
+#info-tab {
+  border-collapse: collapse;
+}
+
+#info-tab caption {
+  background-color: dodgerblue;
+  padding: 15px;
+  text-align: center;
+}
+
+#info-tab tr {
+  border: solid black 1px;
+}
+
+#billing {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+#billing caption {
+  background-color: dodgerblue;
+  padding: 15px;
+  text-align: center;
+}
+
+#billing th {
+  text-align: center;
+}
+
+#billing tr {
+  border: solid black 1px;
+}
+
+#billing td {
+  text-align: center;
+}
+
+/* Checkout Page */
+
+.checkout {
+  background-color: white;
+  width: 60%;
+  height: auto;
+  margin: 200px auto 150px auto;
+}
+
+.checkout_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.checkout_table tr {
+  text-align: left;
+}
+
+.content_table tr {
+  border-top: solid black 1px;
+}
+
+.content_table {
+  border-collapse: collapse;
+}
+#checkout_btn {
+  background-color: rgb(233, 182, 17);
+  border: solid rgb(233, 182, 17) 1px;
+  border-radius: 5px;
+  color: whitesmoke;
+  padding: 10px 40px;
+  margin-right: 10px;
+}
+
+#checkout_btn:hover {
+  background-color: rgb(204, 160, 14);
+  border: solid rgb(204, 160, 14) 1px;
+  color: white;
+}

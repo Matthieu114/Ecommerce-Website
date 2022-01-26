@@ -1,0 +1,314 @@
+/*auction browsing css page and my_auctions.php (admin and profile) css*/
+.auction-background {
+  background-color: whitesmoke;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  height: auto;
+}
+
+.auction-background .table {  
+  width: 95%;
+  margin: 0 auto;
+  border-top: solid grey 2px;
+  border-bottom: solid grey 2px;
+  border-collapse: collapse;
+}
+
+.outer-wrap .table{
+
+  width: 95%;
+  margin: 0 auto;
+  border-top: solid grey 2px;
+  border-bottom: solid grey 2px;
+  border-collapse: collapse;
+
+}
+
+.table th {
+  background-color: darkgrey;
+  padding: 10px;
+  border: solid black 1px;
+  border-bottom: solid black 2px;
+}
+
+.table td {
+  border: solid black 1px;
+  padding: 15px 20px;
+  width: max-content;
+}
+
+.table tr:hover{
+
+  background-color: #ddd;
+}
+
+.auction-background .table img {
+  height: 80px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+#btn_view {
+  background-color: dodgerblue;
+  border: dodgerblue;
+  border-radius: 3px;
+  padding: 5px 20px;
+  width: 90%;
+}
+
+#btn_view:hover {
+  background-color: blue;
+  color: white;
+}
+
+.edit_button{
+  /* admin editing button */
+    color: dodgerblue;
+    border: solid dodgerblue 2px;
+    padding: 5px 10px;
+    margin: 3px;
+}
+
+.edit_button:hover{
+  /* admin editing button */
+    background-color: dodgerblue;
+    border: solid dodgerblue 2px;
+    color: white;
+}
+
+.delete_button{
+  /* admin deleting button */
+  color: red;
+  border: red solid 2px;
+  padding: 5px 13px;
+  margin: 3px;
+}
+
+.delete_button:hover{
+  /* admin deleting button */
+  background-color: red;
+  border: red solid 2px;
+  color:white;
+}
+
+.new_entry{
+  width:95%;
+  text-align:right;
+  margin:0 auto;
+}
+#new_entry{
+
+  background-color: dodgerblue;
+  border:dodgerblue;
+  color: white;
+  padding: 3px 40px;
+  margin: 15px 0 0px 0;
+  border-radius: 3px;
+}
+#new_entry:hover{
+
+  color:#ddd;
+  opacity: 85%;
+}
+
+
+
+
+
+
+/* View auction Items page css*/
+
+.info-background {
+  background-color: whitesmoke;
+  opacity: 90%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 180px;
+  height: 100%;
+}
+
+.info-background img{
+
+    border-radius: 10px;
+    height: 350px;
+    width: 450px;
+    margin: 40px 0 55px 0;
+    
+}
+
+.info-background p, .info-background h1{
+  color: black;
+  padding: 5px 0 5px 10px;
+ 
+}
+.info-content-left{
+
+    float:left;
+    width: 50%;
+    text-align: center;
+    display: block;
+    text-align: center;
+    border-right: solid black 2px;
+    border-top: solid black 2px;
+    margin-right: 20px
+}
+
+.info-background:after{
+
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.info-content-right{
+
+    border-top:solid black 2px;
+}
+
+.item_bid{
+    vertical-align:middle;
+    width: 50%;
+    margin-left: 50%;
+    text-align: center;
+}
+
+.item_bid2{
+  vertical-align: middle;
+  width: 50%;
+  margin-left: 50%;
+  text-align: center;
+
+}
+
+.bid{
+
+  width: 200px;
+  height: 40px;
+  color: white;
+  border: gold;
+  background-color: gold;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+.buynow{
+
+  width: 200px;
+  height: 40px;
+  color: white;
+  border:dodgerblue;
+  background-color:dodgerblue;
+  border-radius: 3px;
+}
+
+
+.item_bid2 input[type="button"]:hover{
+  opacity: 80%;
+  background-color: blue;
+}
+
+.item_bid input[type="button"]:hover{
+
+  background-color: orange;
+  opacity: 80%;
+}
+
+
+
+
+/* phone laptop PC categories*/
+
+.items-background {
+  background-color: whitesmoke;
+  opacity: 90%;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom:200px;
+  height: auto;
+}
+
+.items-background img {
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.items-background h1 {
+  color: black;
+  text-align: center;
+}
+
+.items-background .title {
+  border: solid black 1px;
+  background-color: dodgerblue;
+}
+.items-grid {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: repeat(3, 1fr);
+  border: solid black 1px;
+  padding: 25px;
+
+}
+
+.items-grid > div {
+ 
+  text-align: center;
+}
+
+
+.items-grid > div:hover {
+    
+    background-color: lightgray;
+    
+  }
+
+/*Create auction to sell container*/
+
+.sell_container {
+  background-color: whitesmoke;
+  opacity: 90%;
+  margin: 150px auto 150px auto;
+  width: 70%;
+}
+
+.sale_form {
+  padding: 15px;
+  width: 50%;
+}
+
+.sale_form input[type="text"], .sale_form input[type="number"]{
+
+  width: 225px;
+  height: 40px;
+  border: solid 1px lightgrey;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.sell_container .title h1 {
+  color: black;
+  background-color: dodgerblue;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.sell_container label {
+  font-family: "Roboto", sans-serif;
+}
+
+.post_item{
+  background-color: dodgerblue;
+  border: dodgerblue;
+  padding: 0px 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.post_item:hover{
+  background-color: blue;
+  color: white;
+}

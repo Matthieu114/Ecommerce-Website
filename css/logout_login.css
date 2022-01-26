@@ -1,0 +1,246 @@
+/* signup and login forms css styling */
+.signup-form {
+
+  padding: 15px;
+}
+
+.form-content{
+ 
+  background-color: white;
+  width: 500px;
+  margin: 0 auto;
+  height: auto;
+  opacity: 90%;
+
+}
+.signup-form p{
+
+  color:black;
+}
+
+.login-form {
+  background-color: white;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px;
+  opacity: 90%;
+}
+
+.login-form p{
+
+  color:black;
+}
+
+/* signup form 2 = Payment Page in user profile*/
+
+.signup-form2 {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  display: inline-block;
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.signup-cvv,
+.signup-year {
+  float: left;
+  width: 45%;
+  margin: 5px 23px 15px 0;
+  padding: 0px;
+}
+
+.signup-form input:focus,
+.login-form input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.clearfix button {
+  background-color: dodgerblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.clearfix button:hover {
+  opacity: 5;
+}
+
+.clearfix .cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.clearfix .cancelbtn,
+.clearfix .submitbtn {
+  float: left;
+  width: 50%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.icon-container img {
+  height: 25px;
+  width: 40px;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+/* Add user in admin profile*/
+
+
+.form-content2 input[type="text"], .form-content2 input[type="email"], .form-content2 input[type="password"]{
+
+  width: 250px;
+  height: 40px;
+  border: solid 1px lightgrey;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.form-content2 label {
+  font-family: "Roboto", sans-serif;
+}
+
+.form-content2{
+ 
+  background-color: white;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  opacity: 90%;
+}
+
+.form-content2 .signup-form{
+
+  color:black;
+}
+
+
+
+/* Payment page from w3s schools */
+
+.signup-form2 {
+  width: 1000px;
+  height: auto;
+  margin: 50px auto 0 auto;
+  padding: 15px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+.signup-form2 input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.signup-form2 label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container{
+
+  margin-bottom:13px;
+}
+
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color:blue;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+.icon-container img {
+  height: 25px;
+  width: 40px;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
