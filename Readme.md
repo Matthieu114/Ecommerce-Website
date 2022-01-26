@@ -36,7 +36,7 @@ Then go to localhost:XXXX (XXXX being your port number) in your browser to try i
 
 #### Can signup a user through db as a seller or buyer account
 #### Login user, has password validation
-<img src="./ReadmeImages/Signup.png" width="200" height="350" />  <img src="./ReadmeImages/Login.png" width="200" height="250" />
+<img src="./ReadmeImages/Signup.png" width="200" height="350" />               <img src="./ReadmeImages/Login.png" width="200" height="250" />
 
 #### Buyer or Seller users will have different available options
 
@@ -53,7 +53,7 @@ Then go to localhost:XXXX (XXXX being your port number) in your browser to try i
 
 #### Can bid and buy from the basket
 
-<img src="./ReadmeImages/Basket.png" width="200" height="250" /><img src="./ReadmeImages/Basket2.png" width="200" height="250" />
+<img src="./ReadmeImages/Basket.png" width="200" height="250" />            <img src="./ReadmeImages/Basket2.png" width="200" height="250" />
 
 #### Seller Buyer and Admin Have their own profiles
 
